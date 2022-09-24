@@ -1,2 +1,2 @@
 # blog
-My progress in deep learning and other stuff.
+My progress in deep learning, and other stuff.
