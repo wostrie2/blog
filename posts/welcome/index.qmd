@@ -5,9 +5,11 @@ date: "2022-09-24"
 categories: [news]
 ---
 
-I've started the fastai course, Practical Deep Learning For Coders, and seemingly everyone at fastai recommends starting a blog to track and share your progress. So here we go!
+I'm very excited to have started the fastai course, [Practical Deep Learning for Coders 2022](https://course.fast.ai)!
 
-I'm sure I will include posts on many topics in addition to deep learning.
+Seemingly everyone connectied with fastai recommends starting a blog to track and share your progress. So here we go!
+
+I'm sure I will likely include posts on other topics too.
 
 ![](thumbnail.jpg)
 

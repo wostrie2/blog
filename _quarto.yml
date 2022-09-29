@@ -8,9 +8,9 @@ website:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/wostrie2
       - icon: twitter
-        href: https://twitter.com
+        href: https://twitter.com/WilliamOstrieII
 format:
   html:
     theme: darkly

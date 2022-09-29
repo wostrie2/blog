@@ -1,14 +1,15 @@
 ---
-title: "Welcome To My Blog"
+title: "Is it a lizard?"
 author: "Bill Ostrie II"
-date: "2022-09-24"
+date: "2022-09-29"
 categories: [news]
 ---
 
-I've started the fastai course, Practical Deep Learning For Coders, and seemingly everyone at fastai recommends starting a blog to track and share your progress. So here we go!
+Following the code from [Is it a bird? Creating a model from your own data](https://www.kaggle.com/code/jhoward/is-it-a-bird-creating-a-model-from-your-own-data), I trained a classifer: [Is it a lizard?](https://www.kaggle.com/billostrie2/v2-is-it-a-lizard).
 
-I'm sure I will include posts on many topics in addition to deep learning.
+I don't know what all the code means yet, but it turns out that it is surprisingly easy to train a deep learning model for a task like this.
+
+I did learn the value of looking at the data at each step - when searching for "rock photos" I ended up with photos of Dwayne "the Rock" Johnson in my data :)
 
 ![](thumbnail.jpg)
 
-<!--- Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts. -->
