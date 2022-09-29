@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "blog"
+  title: "Bill Ostrie II's blog on my progress through the fastai deep learning course, and other topics"
   navbar:
     right:
       - about.qmd
