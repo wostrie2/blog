@@ -4,21 +4,21 @@
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "I’m sure I will include posts on many topics in addition to deep learning."
+    "text": "Seemingly everyone connectied with fastai recommends starting a blog to track and share your progress. So here we go!\nI’m sure I will likely include posts on other topics too."
   },
   {
     "objectID": "posts/first-classifier/index.html",
     "href": "posts/first-classifier/index.html",
-    "title": "Welcome To My Blog",
+    "title": "Is it a lizard?",
     "section": "",
-    "text": "I’m sure I will include posts on many topics in addition to deep learning."
+    "text": "I don’t know what all the code means yet, but it turns out that it is surprisingly easy to train a deep learning model for a task like this.\nI did learn the value of looking at the data at each step - when searching for “rock photos” I ended up with photos of Dwayne “the Rock” Johnson in my data :)"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "blog",
     "section": "",
-    "text": "news\n\n\n\n\n\n\n\n\n\n\n\nSep 24, 2022\n\n\nBill Ostrie II\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 24, 2022\n\n\nBill Ostrie II\n\n\n\n\n\n\nNo matching items"
+    "text": "news\n\n\n\n\n\n\n\n\n\n\n\nSep 29, 2022\n\n\nBill Ostrie II\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 24, 2022\n\n\nBill Ostrie II\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
