@@ -1,0 +1,14 @@
+---
+title: "Welcome To My Blog"
+author: "Bill Ostrie II"
+date: "2022-09-24"
+categories: [news]
+---
+
+I've started the fastai course, Practical Deep Learning For Coders, and seemingly everyone at fastai recommends starting a blog to track and share your progress. So here we go!
+
+I'm sure I will include posts on many topics in addition to deep learning.
+
+![](thumbnail.jpg)
+
+<!--- Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts. -->
