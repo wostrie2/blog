@@ -6,14 +6,18 @@ about:
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com
+      href: https://twitter.com/WilliamOstrieII
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/william-bill-ostrie-ii-93b24b1a4/
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/wostrie2
 
 ---
 
-About this blog
+Hi, my name is Bill! I live in north San Diego County, California, USA. I'm currently working in software testing, and I coach fencing a couple of nights a week at a local club.
+
+I'm working through the fastai course, [Practical Deep Learning for Coders 2022](https://course.fast.ai), and learning to build iOS apps.
+
+I'm also working through a math textbook, *Galois Theory* by David Cox. In general, I'm always learning some math, riding bikes, lifting weights, and playing some flamenco or classical guitar music.
