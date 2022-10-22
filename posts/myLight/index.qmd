@@ -1,0 +1,17 @@
+---
+title: "I made a simple iOS app."
+author: "Bill Ostrie II"
+date: "2022-10-22"
+categories: [news]
+---
+
+I made an iOS app to use the front of my phone as a low-intensity flashlight.
+
+I can choose the color of the screen and adjust the brightness.
+
+This sort of thing is useful if you have a migraine, or don't want to lose your night vision, or don't want to wake someone else up. It's a Storyboard app. I might re-make it again to learn how to do the layout just in code, and also make it again with SwiftUI.
+
+
+
+![](myLight.gif)
+
