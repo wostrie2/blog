@@ -1,5 +1,5 @@
 ---
-title: "Welcome to my blog"
+title: "Welcome!"
 author: "Bill Ostrie II"
 date: "2022-09-24"
 categories: [news]
@@ -7,7 +7,7 @@ categories: [news]
 
 I'm very excited to have started the fastai course, [Practical Deep Learning for Coders 2022](https://course.fast.ai)
 
-Seemingly everyone connected with fastai recommends starting a blog to track and share your progress. So here we go!
+Seemingly everyone connected with fastai recommends starting a blog to track and share your progress ([like Rachel Thomas does here](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045)). So here we go!
 
 I will include posts on other topics too.
 
