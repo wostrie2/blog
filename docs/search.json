@@ -4,34 +4,41 @@
     "href": "posts/myLight/index.html",
     "title": "I made a simple iOS app.",
     "section": "",
-    "text": "I can choose the color of the screen and adjust the brightness.\nThis sort of thing is useful if you have a migraine, or don’t want to lose your night vision, or don’t want to wake someone else up. It’s a Storyboard app. I might re-make it again to learn how to do the layout just in code, and also make it again with SwiftUI."
+    "text": "I made an iOS app to use the front of my phone as a low-intensity flashlight.\nI can choose the color of the screen and adjust the brightness.\nThis sort of thing is useful if you have a migraine, or don’t want to lose your night vision, or don’t want to wake someone else up. It’s a Storyboard app. I might re-make it again to learn how to do the layout just in code, and also make it again with SwiftUI."
   },
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome to my blog",
     "section": "",
-    "text": "Seemingly everyone connected with fastai recommends starting a blog to track and share your progress. So here we go!\nI will include posts on other topics too."
+    "text": "I’m very excited to have started the fastai course, Practical Deep Learning for Coders 2022\nSeemingly everyone connected with fastai recommends starting a blog to track and share your progress. So here we go!\nI will include posts on other topics too."
+  },
+  {
+    "objectID": "posts/delays-learning/index.html",
+    "href": "posts/delays-learning/index.html",
+    "title": "Delays/learning",
+    "section": "",
+    "text": "Wow, it’s been a while since I’ve had some progress to report.\nI’ve had some extended-family medical stuff going on (happily all resolved for now) that slowed my studies down for a bit.\nI also had some minor technical challenges to work through, the kind which honestly sometimes felt like a waste of time, but hey, it led to some learning too.\n\n\nPackage managers and environments\nIn the second fastai video (2022 course), Jeremy runs through a quick and easy local installation of pytthon and fastai. Because of what I already had set up, this caused me confusion on several points.\nI wanted to follow what was shown and install Mambaforge. But I already had Anaconda installed, I installed on top of that, and my conda environments stopped working properly.\nI tried some half measures to fix things, but I ended up unistalling Anaconda and Mamba, and installing Mambaforge to get things working again.\nAlso, it was advised in the video to install various packages in the base environment. This was counter to how I had used conda environments before, and both the conda and mamba docs advise against it, so I wasn’t sure what to do with that.\nI asked about it in the fastai forum for Lesson 2, and the response from several people was basically, “aaah, don’t worry about it, we do it all the time.” So it’s probably fine, but I’ll stick to creating new environments rather than installing everything into the base environment.\nAnother thing that sent me digging for more information: the mamba docs advised to still use conda activate while mamba itself, after creating an environment, tells you to use mambba activate. What the what??\nAfter a bit of hunting, I found this exhange which explains that mamba activate is implemented for most shells and is fine to use, and that the documentation pre-dates this and needs to be updated.\nIt also threw me off that the video has you installing fastai on Windows, Linux, or Mac, while the fastai docs state that it’s not supported for Mac. I think this comes down to a lack of GPU support, but I don’t really know.\nI gathered from the video that it should still run on Mac and be ok for non-GPU-intensive tasks, like using an already-trained model to classify a few examples. I haven’t tried it yet, and I may just stick to running fastai on kaggle.com, in Colab notebokk, or on Gradient Paperspace for now… I’ve got to get back to learning about deep learning rather than messing around with with set up :)"
   },
   {
     "objectID": "posts/first-classifier/index.html",
     "href": "posts/first-classifier/index.html",
     "title": "Is it a lizard?",
     "section": "",
-    "text": "I don’t know what all the code means yet, but it turns out that it is surprisingly easy to train a deep learning model for a task like this.\nI did learn the value of looking at the data at each step - when searching for “rock photos” I ended up with photos of Dwayne “the Rock” Johnson in my data :)"
+    "text": "Following the code from Is it a bird? Creating a model from your own data, I trained a classifer: Is it a lizard?.\nI don’t know what all the code means yet, but it turns out that it is surprisingly easy to train a deep learning model for a task like this.\nI did learn the value of looking at the data at each step - when searching for “rock photos” I ended up with photos of Dwayne “the Rock” Johnson in my data :)"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "blog",
     "section": "",
-    "text": "news\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2022\n\n\nBill Ostrie II\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 29, 2022\n\n\nBill Ostrie II\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 24, 2022\n\n\nBill Ostrie II\n\n\n\n\n\n\nNo matching items"
+    "text": "Delays/learning\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nDec 10, 2022\n\n\nBill Ostrie II\n\n\n\n\n\n\n  \n\n\n\n\nI made a simple iOS app.\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2022\n\n\nBill Ostrie II\n\n\n\n\n\n\n  \n\n\n\n\nIs it a lizard?\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 29, 2022\n\n\nBill Ostrie II\n\n\n\n\n\n\n  \n\n\n\n\nWelcome to my blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 24, 2022\n\n\nBill Ostrie II\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I’m working through the fastai course, Practical Deep Learning for Coders 2022, and learning to build iOS apps.\nI’m also working through a math textbook, Galois Theory by David Cox. In general, I’m always learning some math, riding bikes, lifting weights, and playing some flamenco or classical guitar music."
+    "text": "Hi, my name is Bill! I live in north San Diego County, California, USA. I’m currently working in software testing, and I coach fencing a couple of nights a week at a local club.\nI’m working through the fastai course, Practical Deep Learning for Coders 2022, and learning to build iOS apps.\nI’m also working through a math textbook, Galois Theory by David Cox. In general, I’m always learning some math, riding bikes, lifting weights, and playing some flamenco or classical guitar music."
   }
 ]

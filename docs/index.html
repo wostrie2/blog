@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -112,17 +112,18 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
+    <a class="nav-link" href="./about.html">
+ <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/wostrie2"><i class="bi bi-github" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/WilliamOstrieII"><i class="bi bi-twitter" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -142,6 +143,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-meta">
 
       
+    
       
     </div>
     
@@ -151,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(3)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -164,7 +166,42 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news" data-listing-date-sort="1666422000000" data-listing-file-modified-sort="1666477271142" data-listing-reading-time-sort="0.395">
+<div class="quarto-post image-right" data-index="0" data-categories="news" data-listing-date-sort="1670659200000" data-listing-file-modified-sort="1670720755651" data-listing-reading-time-sort="2.105">
+<div class="thumbnail">
+<p><a href="./posts/delays-learning/index.html"> <img src="./posts/delays-learning/broken_glass.jpg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/delays-learning/index.html">
+<h3 class="no-anchor listing-title">
+Delays/learning
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
+news
+</div>
+</div>
+<a href="./posts/delays-learning/index.html">
+<div class="listing-description">
+Wow, it’s been a while since I’ve had some progress to report.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/delays-learning/index.html">
+<div class="listing-date">
+Dec 10, 2022
+</div>
+<div class="listing-author">
+Bill Ostrie II
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1666422000000" data-listing-file-modified-sort="1666477271142" data-listing-reading-time-sort="0.395">
 <div class="thumbnail">
 <p><a href="./posts/myLight/index.html"> <img src="./posts/myLight/myLight.gif" class="thumnail-image"> </a></p>
 </div>
@@ -199,7 +236,7 @@ Bill Ostrie II
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1664434800000" data-listing-file-modified-sort="1664485401584" data-listing-reading-time-sort="0.415">
+<div class="quarto-post image-right" data-index="2" data-categories="news" data-listing-date-sort="1664434800000" data-listing-file-modified-sort="1664485401584" data-listing-reading-time-sort="0.415">
 <div class="thumbnail">
 <p><a href="./posts/first-classifier/index.html"> <img src="./posts/first-classifier/thumbnail.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -234,7 +271,7 @@ Bill Ostrie II
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="news" data-listing-date-sort="1664002800000" data-listing-file-modified-sort="1664485973081" data-listing-reading-time-sort="0.32">
+<div class="quarto-post image-right" data-index="3" data-categories="news" data-listing-date-sort="1664002800000" data-listing-file-modified-sort="1664485973081" data-listing-reading-time-sort="0.32">
 <div class="thumbnail">
 <p><a href="./posts/welcome/index.html"> <img src="./posts/welcome/thumbnail.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -315,7 +352,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -351,24 +405,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

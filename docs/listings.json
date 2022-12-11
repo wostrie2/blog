@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/delays-learning/index.html",
       "/posts/myLight/index.html",
       "/posts/first-classifier/index.html",
       "/posts/welcome/index.html"
