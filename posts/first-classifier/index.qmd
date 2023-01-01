@@ -2,7 +2,7 @@
 title: "Is it a lizard?"
 author: "Bill Ostrie II"
 date: "2022-09-29"
-categories: [news]
+categories: [news, fastai, classifier] 
 ---
 
 Following the code from [Is it a bird? Creating a model from your own data](https://www.kaggle.com/code/jhoward/is-it-a-bird-creating-a-model-from-your-own-data), I trained a classifer: [Is it a lizard?](https://www.kaggle.com/billostrie2/v2-is-it-a-lizard).

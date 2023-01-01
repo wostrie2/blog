@@ -2,7 +2,7 @@
 title: "I made a simple iOS app."
 author: "Bill Ostrie II"
 date: "2022-10-22"
-categories: [news]
+categories: [news, Swift, iOS apps]
 ---
 
 I made an iOS app to use the front of my phone as a low-intensity flashlight.

@@ -2,7 +2,7 @@
 title: "Delays/learning"
 author: "Bill Ostrie II"
 date: "2022-12-10"
-categories: [news]
+categories: [news, fastai] 
 ---
 
 
@@ -17,7 +17,7 @@ I also had some minor technical challenges to work through, the kind which hones
 
 ### Package managers and environments
 
-In the second fastai video (2022 course), Jeremy runs through a quick and easy local installation of pytthon and fastai. Because of what I already had set up, this caused me confusion on several points.
+In the second fastai video (2022 course), Jeremy runs through a quick and easy local installation of python and fastai. Because of what I already had set up, this caused me confusion on several points.
 
 I wanted to follow what was shown and install Mambaforge. But I already had Anaconda installed, I installed on top of that, and my conda environments stopped working properly. 
 
@@ -27,7 +27,7 @@ Also, it was advised in the video to install various packages in the base enviro
 
 I asked about it in the fastai forum for Lesson 2, and the response from several people was basically, "aaah, don't worry about it, we do it all the time." So it's probably fine, but I'll stick to creating new environments rather than installing everything into the base environment.
 
-Another thing that sent me digging for more information: the mamba docs advised to still use `conda activate` while mamba itself, after creating an environment, tells you to use `mambba activate`. What the what?? 
+Another thing that sent me digging for more information: the mamba docs advised to use `conda activate` to activate an environment while mamba itself, after creating an environment, tells you to use `mambba activate`. What the what?? 
 
 After a bit of hunting, I found [this exhange](https://codesti.com/issue/mamba-org/mamba/1994) which explains that `mamba activate` is implemented for most shells and is fine to use, and that the documentation pre-dates this and needs to be updated.
 

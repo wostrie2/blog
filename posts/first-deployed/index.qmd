@@ -1,0 +1,21 @@
+---
+title: "Is it a lizard? deployed"
+author: "Bill Ostrie II"
+date: "2022-12-31"
+categories: [news, fastai, classifier] 
+---
+
+I deployed the the "Is it a lizard?" model on Hugging Face Spaces following [this great tutorial on Tanishq Abraham's blog.](https://tmabraham.github.io/blog/gradio_hf_spaces_tutorial)
+
+The tutorial is very clear and helpfully explains the use of LFS to sync large files with git, which is something that the repo from Spaces expects. I opted to upload the model file directly to Spaces rather than installing LFS at this time. (The large model file is a sticking point otherwise. The other files were easy to push normally, but the model file required LFS or uploading directly to Spaces.)
+
+The model is resnet18 finetuned on some images of lizards and rocks using fastai. [Kaggle notebook](https://www.kaggle.com/code/billostrie2/v2-is-it-a-lizard)
+
+It's pretty accurate on the types of images it was trained on, but I think most photos of lizards reflect the photographer's intention that you actually see the lizard easily. This model can be fooled by the type of images you will find if you search "lizard camouflage". One of the example images demonstrates this limitation - it shows a lizard, but the prediction is "Rocks". It might be interesting to train again using some images of harder-to-see lizards.
+
+[Try it out here!](https://huggingface.co/spaces/w-2-o/lizard_or_rocks)
+
+
+
+![](lizard_or_rocks_space.png)
+
