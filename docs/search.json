@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "posts/first-deployed/index.html",
+    "href": "posts/first-deployed/index.html",
+    "title": "Is it a lizard? deployed",
+    "section": "",
+    "text": "I deployed the the “Is it a lizard?” model on Hugging Face Spaces following this great tutorial on Tanishq Abraham’s blog.\nThe tutorial is very clear and helpfully explains the use of LFS to sync large files with git, which is something that the repo from Spaces expects. I opted to upload the model file directly to Spaces rather than installing LFS at this time. (The large model file is a sticking point otherwise. The other files were easy to push normally, but the model file required LFS or uploading directly to Spaces.)\nThe model is resnet18 finetuned on some images of lizards and rocks using fastai. Kaggle notebook\nIt’s pretty accurate on the types of images it was trained on, but I think most photos of lizards reflect the photographer’s intention that you actually see the lizard easily. This model can be fooled by the type of images you will find if you search “lizard camouflage”. One of the example images demonstrates this limitation - it shows a lizard, but the prediction is “Rocks”. It might be interesting to train again using some images of harder-to-see lizards.\nTry it out here!"
+  },
+  {
     "objectID": "posts/myLight/index.html",
     "href": "posts/myLight/index.html",
     "title": "I made a simple iOS app.",
@@ -40,12 +47,5 @@
     "title": "About",
     "section": "",
     "text": "Hi, my name is Bill! I live in north San Diego County, California, USA. I’m currently working in software testing, and I coach fencing a couple of nights a week at a local club.\nI’m working through the fastai course, Practical Deep Learning for Coders 2022, and learning to build iOS apps.\nI’m also working through a math textbook, Galois Theory by David Cox. In general, I’m always learning some math, riding bikes, lifting weights, and playing some flamenco or classical guitar music."
-  },
-  {
-    "objectID": "posts/first-deployed/index.html",
-    "href": "posts/first-deployed/index.html",
-    "title": "Is it a lizard? deployed",
-    "section": "",
-    "text": "I deployed the the “Is it a lizard?” model on Hugging Face Spaces following this great tutorial on Tanishq Abraham’s blog.\nThe tutorial is very clear and helpfully explains the use of LFS to sync large files with git, which is something that the repo from Spaces expects. I opted to upload the model file directly to Spaces rather than installing LFS at this time. (The large model file is a sticking point otherwise. The other files were easy to push normally, but the model file required LFS or uploading directly to Spaces.)\nThe model is resnet18 finetuned on some images of lizards and rocks using fastai. Kaggle notebook\nIt’s pretty accurate on the types of images it was trained on, but I think most photos of lizards reflect the photographer’s intention that you actually see the lizard easily. This model can be fooled by the type of images you will find if you search “lizard camouflage”. One of the example images demonstrates this limitation - it shows a lizard, but the prediction is “Rocks”. It might be interesting to train again using some images of harder-to-see lizards.\nTry it out here!"
   }
 ]
